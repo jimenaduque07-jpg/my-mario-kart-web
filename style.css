@@ -1,0 +1,241 @@
+.container {
+  max-width: 100% !important;
+  padding: 0 !important;
+
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #ffffff;
+    background-color: #000000;
+    
+}
+
+h1, h2, h3, .logo {
+    font-family: 'Press Start 2P', cursive, sans-serif;
+    font-weight: 700;
+    color: #ffffff; 
+    text-shadow: 1px 1px #ffffff; /* borde blanco*/
+}
+
+a {
+    text-decoration: none;
+    color: #48a1ff; /* azul Mario Kart */
+    font-weight: bold;
+}
+
+.texto-blanco {
+  color: #fff !important;}
+
+/* --- PASO 2: ESTRUCTURA Y CENTRADO -- */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* --- PASO 3: ENCABEZADO Y NAVEGACIÓN --- */
+/* Cambia el color de fondo de la franja del menú */
+.site-header .navbar {
+    background-color: #ff0000 !important; /* rojo Mario Kart */
+}
+
+/* Cambia el color del texto de los enlaces */
+.site-header .nav-link {
+    color: #fff !important; /* blanco */
+    
+}
+
+.site-header .nav-link:hover {
+    color: #ffd700 !important; /* amarillo como las monedas */
+}
+
+.logo {
+    font-size: 2rem;
+    color: white;
+
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.main-nav li {
+    margin-left: 20px;
+}
+
+.main-nav a {
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
+    transition: 0.3s;
+}
+
+.main-nav a:hover {
+    color: #000000;
+    transform: scale(1.1);
+}
+
+/* --- PASO 4: SECCIÓN HERO --- */
+#hero {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("https://pbs.twimg.com/media/FSTE3bOXMAAmBAb?format=jpg&name=4096x4096"); /* imagen central Mario Kart */
+    background-size: cover;
+    background-position: center;
+    color: #ce1212;
+    padding: 150px 0;
+    text-align: center;
+}
+
+#hero h1 {
+    color: #fff;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 3px 3px 0px #ff0000;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    font-family: 'Lato', sans-serif;
+    color: #f5f5f5;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-weight: 700;
+    display: inline-block;
+    box-shadow: 0 2px 0 #ffffff;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    transform: scale(1.1);
+}
+
+/* --- PASO 5: SECCIONES DE CONTENIDO -- */
+#comentarios, #menu, #contacto {
+    padding: 80px 0;
+    text-align: center;
+}
+#comentext{
+    color: #f5f5f5;
+}
+
+#menu {
+    background-color: #f10000;
+    color: #ffffff;
+}
+
+*#comentarios{
+    background-image: linear-gradient(rgba(2, 2, 2, 0.5), rgba(31, 31, 31, 0.5)),
+    url("https://i.pinimg.com/564x/84/41/be/8441bed15fbcf116e0a76983cced3620.jpg");
+    color: #f5f5f5; 
+}
+*#f{
+    color: #e3e3e3;
+}
+
+*#contacto{
+    background-color: #0066ff;
+    color: #f5f5f5;
+}
+.row.justify-content-center{
+    background-color: #000000;
+}
+
+*#txt{
+    color: #0066ff;
+}
+h2 {font-size: 2.5rem;}
+
+#version{
+    background-color: #000000;
+}
+
+/* --- PASO 6: REJILLA DEL MENÚ (Versiones de Mario Kart) --- */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    border: 4px solid #000;
+}
+
+.menu-item h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: #e60012;
+    text-shadow: 1px 1px #ffd700;
+}
+
+/* --- PASO 7: INTERACTIVIDAD Y FOOTER -- */
+a {
+    transition: color 0.3s ease;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.site-footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    border-top: 5px solid #ff0000;
+}
+
+.site-footer a {
+    color: #ffd700;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.site-footer a:hover {
+    color: #00ff00;
+}
+
+/* Botón VER VERSIONES */
+.btn-primary {
+  background-color: #ff0000 !important;  /* Rojo Mario Kart */
+  border-color: #ff0000 !important;
+  color: #fff !important;
+}
+
+.btn-primary:hover {
+  background-color: #ffd700 !important; /* Amarillo monedas */
+  border-color: #ffd700 !important;
+  color: #000 !important;
+}
+
+/* Botón CONTACTANOS */
+.btn-secondary {
+  background-color: #0066ff !important;  /* Azul Mario Kart */
+  border-color: #0066ff !important;
+  color: #fff !important;
+}
+
+.btn-secondary:hover {
+  background-color: #00ff00 !important; /* Verde power-up */
+  border-color: #00ff00 !important;
+  color: #000 !important;
+}
